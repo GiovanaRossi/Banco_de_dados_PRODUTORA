@@ -1,10 +1,10 @@
 # Banco_de_dados_PRODUTORA
 
 MER:
-<img src= "img/music01.png"/>
+<img src= "img/music01.PNG"/>
 
 Workbench:
-<img src= "img/music02.png"/>
+<img src= "img/music02.PNG"/>
 
 História:
   
