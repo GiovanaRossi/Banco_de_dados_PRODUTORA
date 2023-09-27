@@ -1,12 +1,13 @@
 # Banco_de_dados_PRODUTORA
 
 MER:
-
+<img src= "music01.png" />
 
 Workbench:
 
 História:
-  Uma produtora muito conhecida, trabalha como vários artistas, que possuem um número e um nome. Os artistas produzem muitas músicas que possuem um número e um estilo. As músicas produzidas são vendidas para empresas superfamosas, essas empresas possuem um número e um cadastro. As empresas vendem as músicas produzidas para seus clientes que possuem um nome, um cadastro e uma idade. 
+  
+  Uma produtora muito conhecida, trabalha como vários artistas, que possuem um número e um nome. Os artistas produzem muitas músicas que possuem um número e um estilo. As músicas produzidas são vendidas para empresas superfamosas, essas empresas possuem um nome. As empresas vendem as músicas produzidas para seus clientes que possuem um nome, um cadastro e uma idade. 
 
 Schema:
 
