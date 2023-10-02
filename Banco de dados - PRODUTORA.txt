@@ -1,0 +1,57 @@
+CREATE TABLE artista(
+id_artista INT NOT NULL,
+num_artista INT NOT NULL,
+nome_artista VARCHAR(30),
+estilo_musical VARCHAR(30)
+  );
+
+CREATE TABLE clientes(
+id_clientes INT NOT NULL,
+clientes_cadastro INT NOT NULL,
+nome_clientes VARCHAR(30),
+idade_cliente INT NOT NULL,
+num_musica INT NOT NULL, 
+nome_empresa VARCHAR(30)
+  );
+
+CREATE TABLE empresas(
+id_empresas INT NOT NULL,
+clientes_cadastro INT NOT NULL,
+num_musica INT NOT NULL, 
+nome_empresa VARCHAR(30)
+  );
+
+CREATE TABLE musica(
+id_musica INT NOT NULL,
+nome_artista VARCHAR(30),
+num_musica INT NOT NULL, 
+estilo_musical VARCHAR(30)
+  );
+
+INSERT INTO `artista` (`id_artista`,`num_artista`,`nome_artista`, `estilo_musical`) VALUES 
+ (1,111,'Katy Perry', 'Pop'),
+ (2,222,'Billie', 'Pop Rock'),
+ (3,333,'Shawn Mendes','Pop'),
+ (4,444,'Camilla Cabello','Internacional'),
+ (5,555,'Taylor Swift','Pop');
+
+INSERT INTO `clientes` (`id_clientes`,`clientes_cadastro`,`nome_clientes`, `idade_cliente`, `num_musica`, `nome_empresa`) VALUES 
+ (01,0001,'Maria Fernanda',21, 101, 'Spotify'),
+ (02,0002,'Bernardo Rocha',34,202,'Spotify'),
+ (03,0003,'Juliana Silva',22,303,'YouTube'),
+ (04,0004,'Camila Saldanha',30,404, 'YouTube'),
+ (05,0005,'Taylor Sandes',20,505,'Spotify');
+
+INSERT INTO `empresas` (`id_empresas`,`clientes_cadastro`,`nome_empresa`, `num_musica`) VALUES 
+ (11111,0001,'Spotify', 101),
+ (22222,0002,'Spotify',202),
+ (33333,0003,'YouTube',303),
+ (44444,0004,'YouTube',404),
+ (55555,0005,'Spotify',505);
+
+INSERT INTO `musica` (`id_musica`,`nome_artista`,`estilo_musical`, `num_musica`) VALUES 
+ (100,'Katy Perry','Pop', 101),
+ (200,'Billie','Pop Rock',202),
+ (300,'Shawn Mendes','Pop',303),
+ (400,'Camilla Cabello','Internacional',404),
+ (500,'Taylor Swift','Pop',505);
